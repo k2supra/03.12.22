@@ -15,7 +15,7 @@ try:
             lst.append(item)
             with open("7+letters.txt", "w") as fle:
                 print(f"Words which have 7+ letters: {lst}", file=fle)
-                print(f"Words which have 7+ letters: {item}")
+                print(f"\033[1;32;40m Words which have 7+ letters:\033[0m {item}")
 
 
 except Exception as ex:
