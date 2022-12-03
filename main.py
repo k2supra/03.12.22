@@ -11,7 +11,7 @@ try:
 
     with open("2ndfile.txt", "w") as file2:
         for item in con:
-            print(item.replace("\n", ""), file= file2)
+            print(item.replace("\n", ""), file=file2)
 
     print("****DONE****")
 except Exception as ex:
